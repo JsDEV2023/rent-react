@@ -15,6 +15,10 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
         unique: true,
+    },
+    avatar: {
+        type: String,
+        default: "https://belon.club/uploads/posts/2023-04/1681434444_belon-club-p-khitrii-yenot-oboi-1.jpg"
     }
 },{ timestamps: true})
 
